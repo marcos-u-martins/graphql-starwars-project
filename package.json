@@ -1,0 +1,28 @@
+{
+  "name": "my-spacex-launches",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.0",
+    "@date-io/date-fns": "^2.16.0",
+    "@octanner/prism-core": "^1.10.2",
+    "date-fns": "^2.29.3",
+    "graphql": "^16.6.0",
+    "i18next": "^21.10.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.4",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
