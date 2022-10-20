@@ -28,6 +28,11 @@
   flex-grow: 1;
 }
 
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -85,11 +90,16 @@
   max-width: 300px;
 }
 
+.card .card {
+  border-radius: 0;
+  padding: 0;
+  border: 1px solid #eaeaea;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
-  border-color: #0070f3;
 }
 
 .card h2 {
@@ -102,6 +112,7 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
 
 .logo {
   height: 1em;
