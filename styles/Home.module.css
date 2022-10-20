@@ -33,6 +33,18 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+@media (max-width: 750px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -69,6 +81,8 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+
 
 .grid {
   display: flex;
@@ -119,12 +133,6 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 
 @media (prefers-color-scheme: dark) {
   .card,
