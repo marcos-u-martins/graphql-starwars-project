@@ -39,7 +39,7 @@ export default function Home({data}) {
                         <div className={styles.card}>
                           <div className={styles.description}>
                             <p>{`Crew Size: ${vehicle.crew}`}</p>
-                            {vehicle.costInCredits && <p>{vehicle.costInCredits} Credits</p>}
+                            {vehicle.costInCredits && <p>Credits: {vehicle.costInCredits}</p>}
                             <p>{`Passengers: ${vehicle.passengers}`}</p>
                           </div>
                         </div>
